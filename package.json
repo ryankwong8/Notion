@@ -1,0 +1,39 @@
+{
+  "name": "notion-bookratings",
+  "version": "0.1.0",
+  "description": "A simple Node app that translates data into Notion.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha",
+    "test-jest": "jest"
+  },
+  "dependencies": {
+    "@fastify/formbody": "^7.2.0",
+    "@fastify/static": "^6.5.0",
+    "@fastify/view": "^7.1.1",
+    "@notionhq/client": "^2.2.1",
+    "axios": "^1.5.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.9.2",
+    "handlebars": "^4.7.7"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-mvp-node"
+  },
+  "license": "GPLV3",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "author": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  }
+}
